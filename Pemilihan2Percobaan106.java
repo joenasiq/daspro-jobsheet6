@@ -5,7 +5,7 @@ public class Pemilihan2Percobaan106 {
         System.out.print("masukkan tahun: ");
         int tahun = sc.nextInt();
         if ((tahun % 4) == 0) {
-            if ((tahun % 100) != 0) {
+            if ((tahun % 100) != 0 || (tahun % 400) == 0) {
             System.out.println("tahun kabisat");
             } 
             else {
